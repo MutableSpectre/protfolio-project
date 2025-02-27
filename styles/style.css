@@ -32,7 +32,7 @@ p {
 
 .hero {
     background: var(--secondary-color);
-    padding: 160px;
+    padding: 160px 20px;
     text-align: center;
 }
 
@@ -48,6 +48,24 @@ p {
     font-size: 24px;
     font-weight: normal;
     line-height: 2;
+}
+
+.about-section {
+    padding: 160px 20px;
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-family: var(--default-font-family);
+    font-size: 18px;
 }
 
 .btn-branding {
@@ -76,12 +94,20 @@ p {
     h1 {
         font-size: 45px;
     }
+
     h2 {
         font-size: 44px;
     }
+
     .hero {
         font-size: 80px 20px;
     }
+
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
+    
     .project-description {
         padding: 20px;
         text-align: center;
