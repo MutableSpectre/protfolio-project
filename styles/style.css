@@ -68,6 +68,20 @@ p {
     font-size: 18px;
 }
 
+.work-content {
+    background: var(--secondary-color);
+    border-radius: 30px;
+    padding: 80px 20px;
+    margin: 0 160px;
+    margin-top: 160px;
+    text-align: center;
+}
+
+.work-content h2 {
+    font-family: var(--heading-font-family);
+    font-size: 60px;
+}
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
